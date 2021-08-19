@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="assets/css/grid.min.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<title>Notes App</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 order-1 col-lg-5 order-lg-0 section-one">
+					<div class="col-12">
+						<p id="add" class="section-addBtn">
+							<i class="fas fa-plus"></i>
+							add New note
+						</p>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<h3>last note</h3>
+						</div>
+					</div>
+					<div class="row all-note"></div>
+					<template id="New-note">
+						<div class="col-12 note">
+							<div style="background-color: {background};">
+								<h4 class="text-center">{title}</h4>
+								<p>{text}</p>
+								<span>{time}</span>
+							</div>
+						</div>
+					</template>
+				</div>
+				<div class="col-12 order-0 col-lg-7 order-lg-1 section-two">
+					<div class="row">
+						<label for="text">title</label>
+					</div>
+					<div class="row">
+						<div class="w-100 d-flex justify-content-between align-items-center control">
+							<i id="delete" class="fas fa-trash-alt"></i>
+							<i id="clear" class="fas fa-eraser"></i>
+							<input id="title" class="inp" />
+							<i id="save" class="far fa-save"></i>
+						</div>
+					</div>
+					<div class="row justify-content-center item-color">
+						<input type="color" id="custom-color" />
+						<span data-color="#000"></span>
+						<span data-color="#0000ff"></span>
+						<span data-color="#ff0000"></span>
+						<span data-color="#ffff00"></span>
+						<span data-color="#00ff00"></span>
+						<span data-color="#ff00ff"></span>
+					</div>
+					<div class="row">
+						<h3 class="text-center">text</h3>
+						<textarea id="text"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="assets/js/app.js"></script>
+	</body>
+</html>

@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d3d3d3;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  margin: 25px;
+  -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  height: 600px;
+}
+
+.container .section-one {
+  padding: 25px;
+}
+
+.container .section-one h3 {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.container .section-one h3::first-line {
+  text-transform: capitalize;
+}
+
+.container .section-one P.section-addBtn {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 1px solid #000;
+  border-radius: 3px;
+  padding: .7rem;
+  color: #fff;
+  background-color: #44c744;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.container .section-one .all-note {
+  overflow-y: auto;
+  margin-top: 20px;
+  max-height: 440px;
+}
+
+.container .section-one .all-note .note {
+  padding: 0;
+  font-family: 0.9rem;
+  width: 90%;
+  margin: 10px auto;
+  max-height: 100px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container .section-one .all-note .note h4 {
+  font-size: 1.2rem;
+  padding-bottom: 7px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #aaa;
+  font-weight: bolder;
+}
+
+.container .section-one .all-note .note h4::first-line {
+  text-transform: capitalize;
+}
+
+.container .section-one .all-note .note div {
+  padding: 9px;
+}
+
+.container .section-one .all-note .note span {
+  display: block;
+  text-align: right;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.container .section-two {
+  border-left: 1px solid #aaa;
+  padding: 25px;
+}
+
+.container .section-two [for='text'] {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.container .section-two .control .inp {
+  border: 1px solid #aaa;
+  padding: 0.5rem;
+  height: 30px;
+  width: 100%;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+.container .section-two .control .inp:focus {
+  outline: 0;
+}
+
+.container .section-two .control i {
+  font-size: 1.3rem;
+  padding: 7px;
+  margin: 0 4px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 6px 1px rgba(51, 51, 51, 0.25);
+          box-shadow: 0 0 6px 1px rgba(51, 51, 51, 0.25);
+}
+
+.container .section-two .control #save {
+  color: green;
+}
+
+.container .section-two .control #clear {
+  color: red;
+}
+
+.container .section-two .control #delete {
+  color: #333;
+}
+
+.container .section-two .item-color {
+  margin-top: 10px;
+}
+
+.container .section-two .item-color #custom-color {
+  -webkit-appearance: none;
+}
+
+.container .section-two .item-color #custom-color::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.container .section-two .item-color #custom-color::-webkit-color-swatch {
+  border-radius: 100%;
+  border: none;
+}
+
+.container .section-two .item-color span[data-color], .container .section-two .item-color #custom-color {
+  padding: 0;
+  margin: 0 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #000;
+  border: 1px solid #eee;
+  cursor: pointer;
+}
+
+.container .section-two h3 {
+  margin: 10px 0 10px 0;
+}
+
+.container .section-two textarea {
+  padding: 5px;
+  line-height: 132%;
+  font-family: inherit;
+  font-size: 1rem;
+  resize: none;
+  height: 420px;
+}
+
+.container .section-two textarea:focus {
+  outline-color: #aaa;
+}
+/*# sourceMappingURL=main.css.map */

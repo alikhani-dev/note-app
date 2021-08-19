@@ -1,0 +1,8 @@
+### Sass ###
+*.css.map
+*.sass.map
+*.scss.map
+### css ### 
+*.css
+!main.css
+!grid.min.css
