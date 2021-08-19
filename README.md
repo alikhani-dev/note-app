@@ -20,12 +20,10 @@
 ---
 
 ## Technologies
-
 - vanila js
-- framework bootstrap (Grid System)
-
+- framework [bootstrap (Grid System)](https://getbootstrap.com/)
+- Modal: [SweetAlert2](https://sweetalert2.github.io/)
 ---
-
 ## Contact with Me
 
 [instagram](https://www.instagram.com/alikhani_developer/)

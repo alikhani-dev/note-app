@@ -40,12 +40,13 @@ class Note {
   clear () {
     this.title.value = ''
     this.text.value = ''
+    this.setColor('#fff')
   }
   validation () {
     if (this.title.value.length != 0 && this.text.value.length != 0) {
       this.addTolocalStorage()
     } else {
-      //! fix  show alert
+      Swal.fire('Please Enter at one character!', '', 'error');
     }
   }
   addTolocalStorage (index) {
@@ -58,6 +59,7 @@ class Note {
       backgroundColor: this.backgroundColor
     }
     localStorage.setItem(index, JSON.stringify(note))
+    this.setColor('#fff')
     this.appendToBody()
     this.clear()
   }
@@ -103,9 +105,10 @@ class Note {
       })
   }
   showNote (indexItem) {
-    const { title, text, index } = JSON.parse(localStorage.getItem(indexItem))
+    const { title, text, index,backgroundColor } = JSON.parse(localStorage.getItem(indexItem))
     this.title.value = title
     this.text.value = text
+    this.setColor(backgroundColor)
     this.currentNote = index
   }
   setColor (color) {
