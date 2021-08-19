@@ -4,7 +4,7 @@
 
 ## Demo
 
-https://user-images.githubusercontent.com/87765316/130059466-56d789e7-df9a-4aec-9516-6158ad1f61a3.mp4
+![ezgif-1-6a6f00b8ba7e](https://user-images.githubusercontent.com/87765316/130059808-bc995a40-6504-4fb9-be68-71b4e82f93a5.gif)
 
 ---
 
