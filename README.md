@@ -4,6 +4,8 @@
 
 ## Demo
 
+![ezgif-1-6a6f00b8ba7e](https://user-images.githubusercontent.com/87765316/130059808-bc995a40-6504-4fb9-be68-71b4e82f93a5.gif)
+
 ---
 
 ## features
@@ -20,10 +22,12 @@
 ---
 
 ## Technologies
+
 - vanila js
-- framework [bootstrap (Grid System)](https://getbootstrap.com/)
-- Modal: [SweetAlert2](https://sweetalert2.github.io/)
+- framework bootstrap (Grid System)
+
 ---
+
 ## Contact with Me
 
 [instagram](https://www.instagram.com/alikhani_developer/)
