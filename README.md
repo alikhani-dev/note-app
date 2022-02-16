@@ -1,34 +1,23 @@
-# Note book
+## Preview
 
----
+![Preview](https://user-images.githubusercontent.com/87765316/154229099-61c524e6-b9ab-49d5-aafe-e3f02b999963.png)
 
-## Demo
+## Features
 
-![ezgif-1-6a6f00b8ba7e](https://user-images.githubusercontent.com/87765316/130059808-bc995a40-6504-4fb9-be68-71b4e82f93a5.gif)
-
----
-
-## features
-
-- add to localStorage
-- change old note
-- sort by Date
-- show last update
-- select background for note
-- show all list note
-- responsive design
-- delete note
-
----
+- [x] Responsive design
+- [x] Add note ( add localStorage )
+- [x] Edit note
+- [x] Delete note
+- [x] Sort by Date
+- [x] Show all list note
+- [x] Select background for note
 
 ## Technologies
 
-- vanila js
-- framework bootstrap (Grid System)
+**Client:** Pure js ( vanilla js) , Bootstrap
 
----
+## Contact US
 
-## Contact with Me
-
-[instagram](https://www.instagram.com/alikhani_developer/)
-[linkedin](https://www.linkedin.com/in/amir-hossein-agha-alikhani-060a88217/)
+- Email: [alikhani.dev@gmail.com](mailto:alikhani.dev@gmail.com)
+- Linkedin: [Alikhani](www.linkedin.com/in/amir-hossein-agha-alikhani-060a88217)
+- Instagram: [@alikhani_developer](https://www.instagram.com/alikhani_developer/)
